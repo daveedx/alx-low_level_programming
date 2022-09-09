@@ -23,6 +23,6 @@ int main(void)
 		++digit;
 	}
 	putchar('\n');
-I
+
 	return (0);
 }
