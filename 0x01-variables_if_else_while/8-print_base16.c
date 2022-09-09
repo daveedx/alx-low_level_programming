@@ -8,10 +8,15 @@
  */
 int main(void)
 {
-	char c;
+	int digit = 48;
 
-	for (c = 'z'; c >= 'a'; --c)
-		putchar(c);
+	while (digit <= 102) /*102; decimal rep of f*/
+	{
+		putchar(digit);
+		if (digit == 57)
+			digit += 39;
+		++digit;
+	}
 	putchar('\n');
 
 	return (0);
