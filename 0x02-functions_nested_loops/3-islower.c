@@ -1,7 +1,8 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - Checks id a cha is lower
+ * _islower - Checks if a char is lower
+ * @ c: the character to be checked
  *
  * Description: A C progrma that prints using _putchar
  * Return: Program should return 0
