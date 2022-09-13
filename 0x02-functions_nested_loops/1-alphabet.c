@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Prints a-z
  *
  * Description: A C progrma that prints using _putchar
  * Return: Program should return 0
